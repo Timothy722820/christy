@@ -1,0 +1,49 @@
+* {
+    margin: 13px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    background:  rgb(174, 81, 174);
+    color:  #4c260b
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 18px;
+    padding: 12px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 28px;
+    gap: 10px;
+}
+
+li {
+    font-size: 1.8rem;
+    font-height: 2rem; 
+    margin-top: 8px;
+    color:rgb(76, 38, 11)
+    gap: 8px;
+}
+
+.fa-phone {
+    color:rgb(76, 38, 11);
+    font-size: 30px;
+  }
+
+  .footer{width: 1200px; background-color:rgb(174, 81, 174);
+    height: 8vw;  }
+  
+  ul2{display: flex; justify-content: space-between; align-items: center;
+   list-style-type: none; margin:0 10vw; padding-top: 3vw;}
+  
+   .fa-facebook, .fa-square-twitter, .fa-instagram, .fa-weixin, .fa-square-whatsapp {
+    font-size: 3.5vw; color:  rgb(51, 86, 86);}

@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.6;
+}
+ul {
+    list-style-type: none;
+}
+.container-1{
+    display : flex;
+    max-width: 100%;
+    background-color: coral;
+    line-height: 2;
+    justify-content: center;
+    padding: 23px;
+}
+.h1 {
+    font-size: 3.5rem;
+    color: darkblue;
+    text-align: center;
+}
+.fa-star-of-life {
+    font-size: 2.5rem;
+    color: darkblue;
+}
+
+ .main-menu {
+    display : flex;
+    gap: 70px;
+    padding: 18px;
+    background-color: #e06194;
+    text-align: center;
+    color:rgb(108, 18, 18)
+}
+.main-menu li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px; 
+    font-size: 3rem;
+    font-height: 1.5rem; 
+    color:rgb(76, 38, 11)
+  }
+.main-menu li.last-list-item {
+     border: none;
+   }
+.main-menu a {
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(76, 38, 11)
+}
+.img {
+    display: auto;
+    height: 33vh;
+    width: 90vw;
+}
+.container-2 {
+    background-color: rgb(206, 206, 106);
+    display: flex;
+    justify-content: center;
+}
+span {
+    font-size: 60px;
+    color: darkblue;
+    font-weight: 100px;
+}
